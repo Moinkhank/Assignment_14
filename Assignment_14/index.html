@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form >
+        <div id="first">
+        <label for="username">USERNAME <input type="text" id="username" name="username"></label>
+        <label for="password">Password <input type="password" id="password" name="password" autocomplete="off" onkeyup="passcheck(this.value)"></label>
+        <label for="confirm_password">Confirm Password <input type="password" id="confirm_password" name="confirm_password"></label>
+    </div>
+    <h1>All conditions should be fullfilled for Password</h1>
+    <h3>If password is correct then all condition coloured green <br>
+          else grey
+    </h3>
+    <div id="second">
+        <label class="password_check">8 characters</label> <br>
+        <label class="password_check">1 lower case characters</label> <br>
+        <label class="password_check">1 upper case characters</label> <br>
+        <label class="password_check">1 numerical character</label><br>
+        <label class="password_check">1 special character</label><br>
+    </div>
+    <div id="third">
+        <error id="alert-caps"></error>
+        <input id="submit" type="submit" value="submit">
+    </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

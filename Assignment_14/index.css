@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(212, 203, 221);
+}
+#first{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    border: solid black 3px;
+    width: 82%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: rgb(5, 255, 255);
+    border-radius: 5px;
+}
+#username{
+   padding: 10px;
+   font-size: larger;
+   font-family: 'Courier New', Courier, monospace;
+   margin-bottom: 10px;
+}
+#password{
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+#confirm_password{
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+#second{
+    border: solid black 2px;
+    margin-top: 8%;
+   height: 75%;
+    text-align: center;
+    background-color: rgba(153, 146, 233, 0.961);
+    border-radius: 5px;
+}
+.password_check{
+      padding: 15px;
+      font-size: larger;
+      
+}
+#submit{
+    text-align: center;
+    margin-left: 40%;
+    padding: 5px;
+    margin-top: 3%;
+    font-size: larger;
+    background-color: brown;
+    border-radius: 5px;
+}
